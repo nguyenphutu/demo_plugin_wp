@@ -34,5 +34,7 @@ function sinetiks_students_create() {
             <input type='submit' name="insert" value='Save' class='button'>
         </form>
     </div>
+    <a href="<?php echo admin_url('admin.php?page=sinetiks_students_list') ?>">&laquo; List students</a>
+
     <?php
 }
